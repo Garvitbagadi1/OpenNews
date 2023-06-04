@@ -5,8 +5,7 @@ export const Nav = () => {
     <nav className="navbar navbar-expand-lg bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand text-white" to="/"><h1 style={{ fontSize: "50px", color: "rgb(252, 244, 243 )" }}>OpenNews</h1></a>
-        <form className="d-flex" role="search">
-          
+        <form className="d-flex" role="search">    
         </form>
         <button className="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -20,10 +19,10 @@ export const Nav = () => {
               <Link className="nav-link active text-white" to="/general"><h5>General</h5></Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active text-white" to="business"><h5>Business</h5></Link>
+              <Link className="nav-link active text-white" to="/business"><h5>Business</h5></Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link active text-white" to="entertainment"><h5>Entertainment</h5></Link>
+              <Link className="nav-link active text-white" to="/entertainment"><h5>Entertainment</h5></Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link active text-white" to="/health"><h5>Health</h5></Link>
